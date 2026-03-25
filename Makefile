@@ -12,4 +12,4 @@ run: $(TARGET)
 	./$(TARGET)
 
 clean:
-	del /f $(TARGET).exe
+	rm -f $(TARGET)
